@@ -1,0 +1,108 @@
+html, body {
+    background-color: #282c34;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+}
+
+#root {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.title {
+    color: #61dafb;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ciudad {
+    font-size: 22px;
+    color: #61dafb;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+}
+
+.ciudades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #282c34;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.search::placeholder {
+    color: #bbb;
+}
+
+.datos {
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+}
+
+.datos h2 {
+    color: #61dafb;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.datos p {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.datos header, .datos footer {
+    background-color: #1e1e1e;
+    padding: 10px 0;
+}
+
+.datos header {
+    border-bottom: 1px solid #333;
+}
+
+.datos footer {
+    border-top: 1px solid #333;
+}
+
+.iconos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: #61dafb;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.iconos img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
